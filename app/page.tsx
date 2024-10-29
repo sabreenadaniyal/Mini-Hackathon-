@@ -73,9 +73,9 @@ export default function Home() {
 
         <div>
           <ul className="ml-48 mt-8 text-xl text-gray-800">
-            <Link href="#" target="_blank">Popular</Link>
-            <Link className="m-7" href="#" target="_blank"> Upcoming</Link>
-            <Link href="#" target="_blank"> Newly Launched</Link>
+            <Link className="hover:text-2xl hover:bg-blue-800 hover:text-white rounded-md" href="#" target="_blank">Popular</Link>
+            <Link className="m-7 hover:text-2xl hover:bg-blue-800 hover:text-white rounded-md" href="#" target="_blank"> Upcoming</Link>
+            <Link className="hover:text-2xl hover:bg-blue-800 hover:text-white rounded-md" href="#" target="_blank"> Newly Launched</Link>
           </ul>
         </div>
 
@@ -148,3 +148,4 @@ export default function Home() {
 
   );
 }
+
