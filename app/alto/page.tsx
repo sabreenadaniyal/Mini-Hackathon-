@@ -15,10 +15,10 @@ export default function Alto() {
                     </div></div>
 
                 <div className="mt-6 flex gap-5 justify-center text-center text-sm text-blue-950 ">
-                    <button className="to-blue-800 w-36 h-11 rounded-md text-white bg-blue-950">Book a test drive</button>
-                    <button className="border-2 border-blue-800 w-44 h-12 rounded-md">Request Bank Fianace</button>
-                    <button className="border-2 border-blue-800 w-28 h-12 rounded-md">Visit Place</button>
-                    <button className="border-2 border-blue-800 w-28 h-12 rounded-md">Car Inspection</button>
+                    <button className="border-2 border-blue-800 w-36 h-11 rounded-md hover:text-white hover:bg-blue-950">Book a test drive</button>
+                    <button className="border-2 border-blue-800 w-44 h-12 rounded-md hover:text-white hover:bg-blue-950">Request Bank Fianace</button>
+                    <button className="border-2 border-blue-800 w-28 h-12 rounded-md hover:text-white hover:bg-blue-950">Visit Place</button>
+                    <button className="border-2 border-blue-800 w-28 h-12 rounded-md hover:text-white hover:bg-blue-950">Car Inspection</button>
                 </div>
 
                 <h2 className="mt-7 text-center text-2xl font-medium">Vehicle Description</h2> <br />
@@ -46,10 +46,10 @@ export default function Alto() {
 
                 <div className="ml-[45%] mt-8">
                     <Link href="./form">
-                        <button className="bg-blue-800 text-white w-36 h-12 rounded-md">Make Payment</button></Link>
+                        <button className="bg-blue-800 text-white w-36 h-12 rounded-md hover:text-xl">Make Payment</button></Link>
                 </div>
 
             </div>
         </div>
-    )
+   );
 }
