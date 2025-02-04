@@ -56,6 +56,7 @@
 
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function City() {
     return (
@@ -68,7 +69,10 @@ export default function City() {
 
             {/* Car Image */}
             <div className="flex justify-center">
-                <img src="/03.webp" alt="Honda City 2024" className="w-80 h-auto rounded-lg shadow-md" />
+                <Image src="/03.webp" alt="Honda City 2024"
+                 height={150} 
+                 width={250}
+                 className="w-80 h-auto rounded-lg shadow-md" />
             </div>
 
             {/* Action Buttons */}

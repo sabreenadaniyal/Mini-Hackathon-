@@ -55,6 +55,7 @@
 // }
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Alto() {
     return (
@@ -67,7 +68,10 @@ export default function Alto() {
 
             {/* Car Image */}
             <div className="flex justify-center">
-                <img src="/02.jpg" alt="Suzuki Alto 2024" className="w-80 h-auto rounded-lg shadow-md" />
+                <Image src="/02.jpg" alt="Suzuki Alto 2024" 
+                 height={150} 
+                 width={250}
+                className="w-80 h-auto rounded-lg shadow-md" />
             </div>
 
             {/* Action Buttons */}

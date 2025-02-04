@@ -3,6 +3,8 @@
 //         <div>
 //             <div className="bg-cyan-50 w-full h-[90vh]">
 
+import Link from "next/link";
+
 //                 <div className="text-center text-blue-500 font-bold text-5xl pt-44">
 //                     <h1><i>Thank you For Shopping!!!</i></h1>
 //                 </div>
@@ -32,9 +34,9 @@ export default function Thankyou() {
                 </p>
 
                 {/* Back to Home Button */}
-                <a href="/" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 transition">
+                <Link href="/" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 transition">
                     Back to Home
-                </a>
+                </Link>
             </div>
         </div>
     );

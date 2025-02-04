@@ -62,6 +62,7 @@
 
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Toyota() {
     return (
@@ -74,7 +75,10 @@ export default function Toyota() {
 
             {/* Car Image */}
             <div className="flex justify-center">
-                <img src="/01.webp" alt="Toyota Corolla 2024" className="w-80 h-auto rounded-lg shadow-md" />
+                <Image src="/01.webp" alt="Toyota Corolla 2024" 
+                height={150} 
+                width={250}
+                className="w-80 h-auto rounded-lg shadow-md" />
             </div>
 
             {/* Action Buttons */}
@@ -94,7 +98,11 @@ export default function Toyota() {
             {/* Vehicle Description */}
             <h2 className="mt-10 text-center text-2xl font-medium">Vehicle Description</h2>
             <p className="mx-auto max-w-3xl mt-4 text-gray-800 leading-relaxed px-6 text-lg">
-                The <b>Toyota Corolla</b> isn't here to wow or excite. Instead, it offers a safe, predictable ride no matter how far the trip is. Performance isn't at the forefront of the Corolla's intentions (except for the GR Corolla, reviewed separately), and its most powerful engine packs a stable of 169—lethargic—horses. When compared to the Honda Civic or Mazda 3, the Corolla feels much like a tortoise between two hares. The Corolla is available as either a four-door sedan or five-door hatchback. The former is even available with an incredibly fuel-efficient hybrid powertrain.
+                The <b>Toyota Corolla</b> is not here to wow or excite. Instead, it offers a safe, predictable ride no matter how far the trip is. 
+                Performance is not at the forefront of the Corolla&apos;s intentions (except for the GR Corolla, reviewed separately), and its most
+                powerful engine packs a stable of 169—lethargic—horses. When compared to the Honda Civic or Mazda 3, the Corolla feels much like a 
+                tortoise between two hares. The Corolla is available as either a four-door sedan or five-door hatchback. The former is even available
+                with an incredibly fuel-efficient hybrid powertrain.
             </p>
 
             {/* Car Features */}

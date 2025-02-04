@@ -66,6 +66,8 @@
 //   );
 // }
 
+import Image from "next/image";
+
 export default function Home() {
     return (
       <div className="px-4 py-10">
@@ -88,15 +90,15 @@ export default function Home() {
   
                 <ul className="space-y-2">
                   <li className="flex gap-2">
-                    <img src="/tick.png" alt="" width={22} height={5} />
+                    <Image src="/tick.png" alt="" width={22} height={5} />
                     <p className="text-xl">Post your Ad for Free in 3 Easy Steps</p>
                   </li>
                   <li className="flex gap-2">
-                    <img src="/tick.png" alt="" width={22} height={5} />
+                    <Image src="/tick.png" alt="" width={22} height={5} />
                     <p className="text-xl">Get Genuine offers from Verified Buyers</p>
                   </li>
                   <li className="flex gap-2">
-                    <img src="/tick.png" alt="" width={22} height={5} />
+                    <Image src="/tick.png" alt="" width={22} height={5} />
                     <p className="text-xl">Sell your car Fast at the Best Price</p>
                   </li>
                 </ul>
@@ -127,15 +129,15 @@ export default function Home() {
   
                 <ul className="space-y-2">
                   <li className="flex gap-2">
-                    <img src="/tick.png" alt="" width={22} height={5} />
+                    <Image src="/tick.png" alt="" width={22} height={5} />
                     <p className="text-xl">Dedicated Sales Expert to Sell your Car</p>
                   </li>
                   <li className="flex gap-2">
-                    <img src="/tick.png" alt="" width={22} height={5} />
+                    <Image src="/tick.png" alt="" width={22} height={5} />
                     <p className="text-xl">We Bargain for you and share the Best Offer</p>
                   </li>
                   <li className="flex gap-2">
-                    <img src="/tick.png" alt="" width={22} height={5} />
+                    <Image src="/tick.png" alt="" width={22} height={5} />
                     <p className="text-xl">We ensure Safe & Secure Transaction</p>
                   </li>
                 </ul>
