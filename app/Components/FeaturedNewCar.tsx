@@ -91,6 +91,7 @@
 
 
 
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -129,20 +130,20 @@ const FeaturedNewCar = () => {
         
         {/* Car Card */}
         {[
-          { name: "Toyota Corolla", price: "PKR 59.7 - 75.5 lacs", img: "/corolla 1.jpg", reviews: 622, link: "toyota" },
-          { name: "Suzuki Alto", price: "PKR 23.3 - 30.5 lacs", img: "/alto 2.png", reviews: 622, link: "alto" },
-          { name: "Honda City", price: "PKR 46.5 - 58.5 lacs", img: "/city 3.jpg", reviews: 456, link: "city" },
-          { name: "Honda Civic", price: "PKR 86.6 - 99.0 lacs", img: "/Civic 4.jpg", reviews: 359, link: "civic" }
+          { name: "Toyota Corolla", price: "PKR 59.7 - 75.5 lacs", Image: "/corolla 1.jpg", reviews: 622, link: "toyota" },
+          { name: "Suzuki Alto", price: "PKR 23.3 - 30.5 lacs", Image: "/alto 2.png", reviews: 622, link: "alto" },
+          { name: "Honda City", price: "PKR 46.5 - 58.5 lacs", Image: "/city 3.jpg", reviews: 456, link: "city" },
+          { name: "Honda Civic", price: "PKR 86.6 - 99.0 lacs", Image: "/Civic 4.jpg", reviews: 359, link: "civic" }
         ].map((car, index) => (
           <div key={index} className="border-2 w-full sm:w-[300px] h-auto bg-white rounded-lg shadow-md hover:shadow-lg transition p-4">
-            <img className="rounded-md w-full h-[150px] object-cover" src={car.img} alt={car.name} />
+            <img className="rounded-md w-full h-[150px] object-cover" src={car.Image} alt={car.name} />
             <div className="text-center mt-3">
               <Link className="text-blue-900 font-bold text-xl hover:text-blue-600" href={car.link}>
                 {car.name}
               </Link>
               <p className="text-green-500 text-base mt-1">{car.price}</p>
               <div className="flex justify-center items-center gap-1 mt-3">
-                <img src="/stars.jpg" alt="Reviews" width={70} height={15} />
+                <Image src="/stars.jpg" alt="Reviews" width={70} height={15} />
                 <p className="text-gray-500 text-sm md:text-base">{car.reviews} Reviews</p>
               </div>
             </div>

@@ -91,7 +91,9 @@ export default function Alto() {
             {/* Vehicle Description */}
             <h2 className="mt-10 text-center text-2xl font-medium">Vehicle Description</h2>
             <p className="mx-auto max-w-3xl mt-4 text-gray-800 leading-relaxed px-6 text-lg">
-                <b>Suzuki Alto VXR</b> features a completely new look that fits the modern world, making it a perfect city car. It is one of the most fuel-efficient cars available, compact and stylish on the outside yet surprisingly spacious on the inside. The Alto VXR is the most well-equipped and affordable hatchback in the **660CC** category in Pakistan.
+                <b>Suzuki Alto VXR</b> features a completely new look that fits the modern world, making it a perfect city car. 
+                It is one of the most fuel-efficient cars available, compact and stylish on the outside yet surprisingly spacious
+                on the inside. The Alto VXR is the most well-equipped and affordable hatchback in the **660CC** category in Pakistan.
             </p>
 
             {/* Car Features */}
