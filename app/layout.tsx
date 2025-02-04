@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-
 import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-
-
+import Script from "next/script";
 
 
 export const metadata: Metadata = {
@@ -20,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-   
+      <Script 
+          src="https://kit.fontawesome.com/ae61999827.js" 
+          crossOrigin="anonymous" />
        <Navbar />
         {children}
         <Footer />
