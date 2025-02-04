@@ -29,7 +29,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-       <script src='https://kit.fontawesome.com/ae61999827.js' crossOrigin="anonymous"></script>
+       <script 
+       src='https://kit.fontawesome.com/ae61999827.js' crossOrigin="anonymous" />
        <Navbar />
         {children}
         <Footer />

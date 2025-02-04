@@ -136,7 +136,9 @@ const FeaturedNewCar = () => {
           { name: "Honda Civic", price: "PKR 86.6 - 99.0 lacs", Image: "/Civic 4.jpg", reviews: 359, link: "civic" }
         ].map((car, index) => (
           <div key={index} className="border-2 w-full sm:w-[300px] h-auto bg-white rounded-lg shadow-md hover:shadow-lg transition p-4">
-            <img className="rounded-md w-full h-[150px] object-cover" src={car.Image} alt={car.name} />
+            <Image className="rounded-md w-full h-[150px] object-cover" src={car.Image} alt={car.name} 
+            width={150}
+            height={80}/>
             <div className="text-center mt-3">
               <Link className="text-blue-900 font-bold text-xl hover:text-blue-600" href={car.link}>
                 {car.name}
