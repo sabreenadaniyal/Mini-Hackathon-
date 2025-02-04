@@ -93,10 +93,9 @@ export default function Civic() {
             {/* Vehicle Description */}
             <h2 className="mt-10 text-center text-2xl font-medium">Vehicle Description</h2>
             <p className="mx-auto max-w-3xl mt-4 text-gray-800 leading-relaxed px-6 text-lg">
-                The current-generation <b>Honda Civic</b> is one of the automaker&apos;s best yet. Its packed with everything
+                The current-generation <b>Honda Civic</b> is one of the automakers best yet. Its packed with everything
                 you did want from a small sedan or hatchback, including a spacious interior, impressive performance, and 
-                the latest technology and driver-assist features. For driving enthusiasts, there&apos;s even the high-performance
-                **315-horsepower Type R** version!
+                the latest technology and driver-assist features. For driving enthusiasts, theres even the high-performance 315-horsepower Type R version!
             </p>
 
             {/* Car Features */}

@@ -99,7 +99,7 @@ export default function Toyota() {
             <h2 className="mt-10 text-center text-2xl font-medium">Vehicle Description</h2>
             <p className="mx-auto max-w-3xl mt-4 text-gray-800 leading-relaxed px-6 text-lg">
                 The <b>Toyota Corolla</b> is not here to wow or excite. Instead, it offers a safe, predictable ride no matter how far the trip is. 
-                Performance is not at the forefront of the Corolla&apos;s intentions (except for the GR Corolla, reviewed separately), and its most
+                Performance is not at the forefront of the Corollas intentions (except for the GR Corolla, reviewed separately), and its most
                 powerful engine packs a stable of 169—lethargic—horses. When compared to the Honda Civic or Mazda 3, the Corolla feels much like a 
                 tortoise between two hares. The Corolla is available as either a four-door sedan or five-door hatchback. The former is even available
                 with an incredibly fuel-efficient hybrid powertrain.

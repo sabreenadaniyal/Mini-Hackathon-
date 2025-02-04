@@ -92,8 +92,8 @@ export default function City() {
             {/* Vehicle Description */}
             <h2 className="mt-10 text-center text-2xl font-medium">Vehicle Description</h2>
             <p className="mx-auto max-w-3xl mt-4 text-gray-800 leading-relaxed px-6 text-lg">
-                <b>Honda City V Petrol MT 2024</b> is a **1500 CC** sedan, offering a **fuel efficiency of 17-18 km/l**. 
-                It come&apos;s with a **manual transmission** and is available in **six stunning colors**: 
+                <b>Honda City V Petrol MT 2024</b> is a **1500 CC** sedan, offering a fuel efficiency of 17-18 km/l. 
+                It comes with a manual transmission and is available in six stunning colors: 
                 Golden Brown Metallic, Obsidian Blue Pearl, Meteoroid Grey Metallic, Radiant Red Metallic, 
                 Lunar Silver Metallic, and Platinum White Pearl.
             </p>
